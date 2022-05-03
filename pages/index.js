@@ -12,8 +12,8 @@ const Home = ({products, bannerData}) => {
         <p>Car Perfume</p>
       </div>
       <div className='products-container'>
-        {products?.map((product) => product.name)}
-        {/* <Product key={product._id} product={product} /> */}
+        {products?.map((product) => <Product key={product._id} product={product} />)}
+        
       </div>
 
       <FooterBanner />
