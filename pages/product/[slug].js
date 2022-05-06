@@ -20,7 +20,7 @@ const ProductDetails = ({ product, products}) => {
             ))}
           </div> */}
         </div>
-        <div className='product-details-desc'>
+        <div className='product-detail-desc'>
           <h1>{name}</h1>
           <div classname="reviews">
             <div>
@@ -46,6 +46,14 @@ const ProductDetails = ({ product, products}) => {
               <span className='num' onClick="">0</span>
               <span className='plus' onClick=""><AiOutlinePlus /></span>
             </p>
+          </div>
+          <div className='buttons'>
+            <button type='button' className='add-to-cart'>
+              Add to Cart
+            </button>
+            <button type='button' className='buy-now'>
+              Buy Now
+            </button>
           </div>
         </div>
       </div>
