@@ -15,7 +15,7 @@ const Product = ({product: {
             heigth={250}
             className="product-image"/>
             <p className='product-name'>{name}</p>
-            <p className='product-name'>{price}</p>
+            <p className='product-name'>${price}</p>
         </div>
       </Link>
     </div>
