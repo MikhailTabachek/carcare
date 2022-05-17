@@ -142,7 +142,7 @@ width: 100%;
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
-  margin-top: 40%;
+  /* margin-top: 40%; */
 }
 .hero-banner-container button{
   border-radius: 15px;
@@ -247,9 +247,9 @@ text-align: end;
   margin:18px;
 }
 .footer-banner-image{
-  position: absolute;
-  top: -25%;
-  left: 25%;
+  position: relative;
+  margin-top: -5%;
+  margin-left: 15%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -620,14 +620,40 @@ margin-top: 160px;
   margin-top: 10px;
 }
 
+@media screen and (max-width:1160px) {
+  .hero-banner-image{
+    height: 60vh;
+    width: 60vh;
+    position: absolute;
+    right: 5%;
+  }
+
+}
+
 @media screen and (max-width:850px) {
    div .product-detail-container{
      flex-direction: column;
    }
 
    div .hero-banner-container{
-     
+     height: auto;
    }
+
+   div .footer-banner-container{
+    height: auto;
+  }
+  .footer-banner-image{
+    height: 250px;
+    width: 250px;
+    left: auto;
+    top: 50%;
+  }
+  .hero-banner-image{
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    right: 0;
+  }
   }
 
 @media screen and (max-width:800px) {
@@ -635,20 +661,24 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 50%;
-    height: 35%;
+    position: static;
+    width: 30vh;
+    height: 30vh;
     top: -2%;
     right: 6%;
   }
   .footer-banner-container{
+    display: flex;
+    flex-direction: row;
     height: 560px;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 50%;
-    height: 35%;
+    display: block;
+    width: 30vh;
+    height: 30vh;
     top: 2%;
-    margin-left: 100px;
+    right: 10px;
   }
   .banner-desc .left h3{
     font-weight: 900;
