@@ -10,8 +10,8 @@ const FooterBanner = ({footerBanner: {
     <div className='footer-banner-container'>
       <div className='banner-desc'>
         <div className='left'>
-          <p>{discount}</p>
-          <h3>{largeText1}</h3>
+          <p>{discount} off</p>
+          <h2>{largeText1}</h2>
           <h3>{largeText2}</h3>
           <p>{saleTime}</p>
         </div>
