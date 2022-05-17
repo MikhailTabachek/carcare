@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Car Care**
 
-## Getting Started
+&nbsp;
 
-First, run the development server:
+Please click **[here](https://carcare-iota.vercel.app/)** to visit the website.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+**About the website**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+E-commerce website with fully integrated payment system - Stripe.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![](https://imgur.com/k5I4LzP.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+ Users can add items to the cart, remove items from the cart and change quantity. 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ ![](https://imgur.com/YfWuRfB.png)
 
-## Learn More
+ After user clicks on Pay with Stripe, site redirects automatically to Stripe platform where it asks for payment method, shipping address etc. 
+ 
+ ![](https://imgur.com/lz4XDzo.png)
 
-To learn more about Next.js, take a look at the following resources:
+ Once user fills all required fields and clicks Pay, system redirects to Success page if payment is completed. Stripe does not charge users card since its in a test mode and its recommended to use fake card number and other information. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**How I built this website**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I was looking for a tutorial that will let me use Next.js in my new project. Once I found it, I was able to learn not just Next.js features, but also how to implement Stripe and Sanity for the backend.
 
-## Deploy on Vercel
+To build the website I used:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+![](https://img.shields.io/badge/NExt.js-20232A?style=for-the-badge&logo=next.js&logoColor=61DAFB)
+
+![](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
+
+![](https://img.shields.io/badge/Sanity-626CD9?style=for-the-badge&logo=Sanity&logoColor=white)
+
+**Credits:**
+
+**Imgur**
+
+**YouTube Channel:** JavaScript Mastery
